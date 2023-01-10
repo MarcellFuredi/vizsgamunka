@@ -1,0 +1,289 @@
+body {
+    margin: auto;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 80%;
+    }
+
+    .header {
+        overflow: hidden;
+        height: 300px;
+    }
+}
+
+.header {
+    width: 100%;
+}
+
+#header-video {
+    width: 100%;
+}
+
+.cim {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    font-family: cursive;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(49deg, rgba(158, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+/* Nav bar */
+
+.navbar {
+    border: 1px solid white;
+
+}
+
+.navbar .nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.navbar .nav-li .nav-a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.navbar .nav-li:hover {
+    background-color: #333;
+    color: aliceblue;
+}
+
+.navbar .nav-li .nav-a:visited {
+    color: white;
+}
+
+.nav-a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #333;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar .nav-li {
+        border: 1 px solid white;
+    }
+
+    .navbar .nav-ul {
+        flex-direction: row;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .navbar .nav-li .nav-a {
+        flex-direction: row;
+        padding: 0.5rem 3rem 0.5rem 3rem;
+        border: 0;
+    }
+}
+
+/*main1*/
+
+.main1-h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.main1-ul {
+    list-style-type: square;
+    padding-left: 0;
+}
+
+.main1-li {
+    margin: 10px 30px 10px 30px;
+    line-height: 25px;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    .main1-h2 {
+        font-size: 1.5rem;
+    }
+
+    .main1-ul {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .main1-li {
+        font-size: 1.2rem;
+    }
+
+    .kemence-container {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+.kemence-container {
+    display: flex;
+    justify-content: center;
+}
+
+.kemence {
+    width: 80%;
+    margin-top: 30px;
+}
+
+/*main2*/
+
+.main2-h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.main2-p {
+    margin: 10px 30px 10px 30px;
+    line-height: 25px;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    .main2-h2 {
+        font-size: 1.5rem;
+    }
+
+    .main2-p {
+        font-size: 1.2rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .etterem-container {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+.etterem-container {
+    display: flex;
+    justify-content: center;
+}
+
+.etterem {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.vissza-container {
+    padding: 10px;
+}
+
+.vissza-container .vissza {
+    text-decoration: none;
+}
+
+.vissza-container .vissza:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.vissza-container .vissza:hover {
+    color: #333;
+}
+
+.vissza::before {
+    content: url(./media/arrowkicsi.png);
+    padding-right: 5px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #333;
+    padding: 30px;
+}
+
+.footer-table {
+    margin: auto;
+}
+
+.footer-th {
+    text-align: left;
+}
+
+.footer-td {
+    padding-left: 30px;
+    text-align: right;
+}
+
+.footer-caption {
+    padding-bottom: 15px;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    word-spacing: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    padding-left: 0;
+}
+
+.footer-li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer-a {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-a:visited {
+    color: white;
+}
+
+.footer-a:hover {
+    color: #666;
+}
+
+.lakcim {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.lakcim-a {
+    color: white;
+}
+
+.lakcim-a:visited {
+    color: white;
+}
